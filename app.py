@@ -1,8 +1,6 @@
 import streamlit as st
 
 
-
-
 def somma(l1:float, l2:float):
     a = l1+l2
     return a
