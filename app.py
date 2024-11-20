@@ -1,5 +1,8 @@
 import streamlit as st
 
+
+st.title('Titanic prediction')
+
 def somma(l1:float, l2:float):
     a = l1+l2
     return a
