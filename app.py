@@ -1,6 +1,4 @@
 import streamlit as st
-import joblib as jbl
-import sklearn
 
 
 
