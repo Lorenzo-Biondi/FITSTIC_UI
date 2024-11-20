@@ -1,13 +1,16 @@
 import streamlit as st
+import joblib as jbl
+import sklearn
 
 
-st.title('Titanic prediction')
+
 
 def somma(l1:float, l2:float):
     a = l1+l2
     return a
 
 def main():
+    st.title('Area rettangolo')
     st.text('proviamo questo front-end')
     num1 = st.slider('Inserisci lato1 rettandolo',0,100,2)
     num2 = st.slider('Inserisci lato2 rettangolo',0,100,3)
