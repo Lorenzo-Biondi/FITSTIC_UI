@@ -7,6 +7,10 @@ def somma(l1:float, l2:float):
     return a
 
 def main():
+
+    def somma(l1:float, l2:float):
+        a = l1+l2
+        return a
     st.title('Pipeline streamlit')
     st.text('proviamo questo front-end')
 
