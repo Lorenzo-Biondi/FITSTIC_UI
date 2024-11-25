@@ -11,7 +11,6 @@ def load_model():
         return None
 
 def setup_page():
-    """Configure the Streamlit page with title and description."""
     st.set_page_config(
         page_title="Diabetes Risk Predictor",
         page_icon="🏥",
