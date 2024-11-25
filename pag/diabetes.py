@@ -11,11 +11,7 @@ def load_model():
         return None
 
 def setup_page():
-    st.set_page_config(
-        page_title="Diabetes Risk Predictor",
-        page_icon="🏥",
-        layout="wide"
-    )
+
     
     st.title("🏥 Diabetes Risk Predictor")
     st.markdown("""

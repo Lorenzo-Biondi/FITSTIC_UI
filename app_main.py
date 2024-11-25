@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from streamlit_option_menu import option_menu
 #pages in python format
-from pages import penguins, titanic, diabetes
+from pag import penguins, titanic, diabetes
 
 st.set_page_config(
                     page_title="Template Project",
@@ -47,3 +47,7 @@ class MultiApp:
             titanic.main()
         if app == page[2]:
             diabetes.main()
+
+
+if __name__ == "__main__":
+    MultiApp.main()  
